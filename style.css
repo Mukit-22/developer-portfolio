@@ -43,3 +43,13 @@ section {
     background-size: 70%;
 
 }
+
+.dream-big {
+    padding-top: 60px;
+    background-image: url("dreambig1.png");
+    background-size: 62%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 90px;
+    margin: 0%;
+}
