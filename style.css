@@ -11,8 +11,9 @@ h1 {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
+    margin-bottom: 50px;
 }
 
 .half-width {
@@ -37,7 +38,7 @@ section {
     color: rgb(255, 255, 255);
 }
 
-#top-banner {
+.top-banner {
     background-image: url("developer.png");
     background-repeat: no-repeat;
     background-size: 70%;
@@ -52,4 +53,37 @@ section {
     background-position-x: right;
     background-position-y: 90px;
     margin: 0%;
+}
+
+.experience {
+    background-image: url("bottom.png");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position-y: 280px;
+}
+
+.experience-item {
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+
+}
+
+#full {
+    border-left: 10px solid;
+    border-image: linear-gradient(orange, orangered);
+    border-image-slice: 1;
+}
+
+#baby {
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
